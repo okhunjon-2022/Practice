@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+// import React, { useRef, useState } from "react";
 import Rec48 from "../../assets/bannerSwiper/Rec48.png"
 import Rec49 from "../../assets/bannerSwiper/Rec49.png"
 import Rec50 from "../../assets/bannerSwiper/Rec50.png"
@@ -39,23 +39,23 @@ export default function BannerSwiper() {
         className="mySwiper1"
       >
         <SwiperSlide>
-          <img src={Rec48} />
+          <img src={Rec48} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Rec49} />
+          <img src={Rec49} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Rec50} />
+          <img src={Rec50} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Rec48} />
+          <img src={Rec48} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Rec49} />
+          <img src={Rec49} alt="" />
         </SwiperSlide>
         
         <SwiperSlide>
-          <img src={Rec50} />
+          <img src={Rec50} alt="" />
         </SwiperSlide>
         
       </Swiper>
