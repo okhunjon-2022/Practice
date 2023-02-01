@@ -1,0 +1,39 @@
+@media screen and (max-width:1090px) {
+    .navbar__contact{
+        width: 20%;
+    }
+}
+@media screen and (max-width:1050px) {
+    
+    .navbar__collection{
+width: 60%;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .nav__logo2{
+        display: none;
+    }
+    .nav__logo1{
+        display: block;
+    }
+    .navbar__contact{
+        font-size: 14px;
+    }
+    .navbar__collection{
+        font-size: 18px;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .navbar__collection{
+        display: none;
+    }
+    .navbar__contact{
+        display: none;
+    }
+    .navbar__bars{
+        display: block;
+    }
+    
+}

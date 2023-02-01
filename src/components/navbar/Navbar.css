@@ -1,0 +1,71 @@
+.navbar{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav__logo1{
+    display: none;
+}
+.navbar__collection{
+   width: 45%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar__item{
+    list-style: none;
+    color: #000;
+    font-weight: 500;
+}
+.navbar__collection a{
+    text-decoration: none;
+}
+.navbar__contact{
+    width: 15%;
+    height: 100px;
+    text-align: center;
+    line-height: 1.2;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #000;
+    font-weight: 500;
+    
+}
+.navbar__bars{
+    display: none;
+}
+
+.navbar__contact p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+} 
+.navbar__sitebar{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: 0;
+   z-index: 10;
+   text-align: center;
+   background: rgb(54, 140, 113);
+}   
+.navbar__sitebar a{
+    text-decoration: none;
+}  
+.sitebar__item{
+    margin: 30px;
+    list-style: none;
+    color: #000;
+}
+.navbar__cancel{
+    margin-top: 50px;
+}
+.navbar__cancel span{
+font-size: 25px;
+}
